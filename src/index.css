@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+}
+.color-change-infinite{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  .top-content{
+    background: #dedede00;
+  }
+  .search-button{
+    height: 56px;
+  }
+  .text-header{
+    background-clip: text;
+    --tw-gradient-to: #c084fc var(--tw-gradient-to-position);  
+    --tw-gradient-from: #818cf8 var(--tw-gradient-from-position);
+    --tw-gradient-stops: var(--tw-gradient-from), #ffebf4 var(--tw-gradient-via-position), var(--tw-gradient-to);
+    color: transparent;
+    font-size: 32px;
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
