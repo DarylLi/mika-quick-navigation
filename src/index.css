@@ -43,6 +43,9 @@ code {
     font-size: 32px;
     background-image: linear-gradient(to right, var(--tw-gradient-stops));
   }
+  .mk-side-bar{
+    background-color: rgb(246 248 249)
+  }
 }
 @keyframes gradient {
 	0% {
