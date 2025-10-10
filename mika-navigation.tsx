@@ -1,8 +1,16 @@
 import React, { useState, useEffect } from 'react';
+import ReactMarkdown from 'react-markdown';
 import { Home, Cpu, TestTube, Code, Palette, Server, Briefcase, FileText, Wrench, Video, Globe, Menu, Search, Star, Bell, BookOpen, LogIn, ChevronDown, X, ExternalLink } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 // 导入工具数据
 import toolsData from './tools.json';
+
+// 声明 Trianglify 类型到 window
+declare global {
+  interface Window {
+    Trianglify: any;
+  }
+}
 
 interface Category {
   icon: LucideIcon;
@@ -18,6 +26,7 @@ interface Tool {
   sub_category_name: string | null;
   name: string;
   description: string;
+  desc_md: string;
   url: string;
   icon: string;
   logo: string;
@@ -34,6 +43,7 @@ interface Tool {
 interface DisplayTool {
   name: string;
   desc: string;
+  desc_md:string;
   tags: string[];
   color: string;
   link: string;
@@ -49,6 +59,12 @@ export default function MikaNavigation() {
   // 新增状态：控制模态框显示和存储当前选中的工具
   const [showModal, setShowModal] = useState<boolean>(false);
   const [selectedTool, setSelectedTool] = useState<DisplayTool | null>(null);
+  // 关闭模态框时恢复页面滚动
+  function closeModal() {
+    setShowModal(false);
+    setSelectedTool(null);
+    document.body.style.overflow = '';
+  }
   // 搜索相关状态
   const [searchKeyword, setSearchKeyword] = useState<string>('');
   const [searchResults, setSearchResults] = useState<DisplayTool[]>([]);
@@ -310,6 +326,7 @@ export default function MikaNavigation() {
         const displayTool: DisplayTool = {
           name: tool.name,
           desc: tool.description || '暂无描述',
+          desc_md: tool.desc_md || '暂无描述',
           tags: tool.tags ? tool.tags.split(',').filter(tag => tag.trim()) : [], // 分割标签并过滤空标签
           color: getRandomColor(), // 为每个工具生成随机颜色
           link: tool.url || '#',
@@ -405,7 +422,115 @@ export default function MikaNavigation() {
   const currentTools = activeSubCategory === 'hotTools' ? hotTools : (processedToolsData[activeSubCategory] || []);
   console.log(currentTools)
   return (
-    <div className="flex h-screen bg-gray-50">
+  <div className="flex h-screen bg-gray-50">
+      {/* 工具详情模态框 */}
+      {showModal && selectedTool && 1===3 &&(
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
+          style={{ backdropFilter: 'blur(2px)' }}
+        >
+          <div
+            className="relative bg-white rounded-2xl shadow-2xl p-8 overflow-y-auto animate-fadeIn"
+            style={{ width: '95vw', height: '95vh', maxHeight: '95vh' }}
+          >
+            <button
+              className="absolute top-4 right-4 text-gray-400 hover:text-gray-700 text-2xl font-bold z-10"
+              onClick={closeModal}
+              aria-label="关闭"
+            >
+              <X size={32} />
+            </button>
+            <div className="flex items-center mb-6 gap-4">
+              {selectedTool.icon ? (
+                <img src={selectedTool.icon} alt={selectedTool.name} className="w-16 h-16 rounded-lg shadow" />
+              ) : (
+                <div className="w-16 h-16 rounded-lg flex items-center justify-center text-white font-bold text-2xl" style={{ backgroundColor: selectedTool.color }}>{selectedTool.name.charAt(0)}</div>
+              )}
+              <div>
+                <h2 className="text-2xl font-bold text-gray-800 mb-1">{selectedTool.name}</h2>
+                <div className="flex flex-wrap gap-2">
+                  {selectedTool.tags.map((tag, i) => (
+                    <span key={i} className="text-xs bg-blue-50 text-blue-600 px-2 py-0.5 rounded">{tag.trim()}</span>
+                  ))}
+                </div>
+              </div>
+            </div>
+            <div className="prose max-w-none mb-6" style={{ minHeight: 120, fontSize: 18 }}>
+              <ReactMarkdown>{selectedTool.desc_md}</ReactMarkdown>
+            </div>
+            <div className="flex justify-end gap-4">
+              <a
+                href={selectedTool.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-semibold shadow transition"
+              >
+                访问工具 <ExternalLink className="inline ml-1" size={18} />
+              </a>
+              <button
+                className="bg-gray-200 hover:bg-gray-300 text-gray-700 px-6 py-2 rounded-lg font-semibold transition"
+                onClick={closeModal}
+              >
+                关闭
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+        {/* 工具详情模态框 */}
+        {showModal && selectedTool && (
+          <div
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
+            style={{ backdropFilter: 'blur(2px)' }}
+          >
+            <div
+              className="modal-dom relative bg-white rounded-2xl shadow-2xl p-8 overflow-y-auto animate-fadeIn"
+              style={{ width: '75vw', height: '75vh', maxHeight: '95vh' }}
+            >
+              <button
+                className="absolute top-4 right-4 text-gray-400 hover:text-gray-700 text-2xl font-bold z-10"
+                onClick={closeModal}
+                aria-label="关闭"
+              >
+                <X size={32} />
+              </button>
+              <div className="flex items-center mb-6 gap-4">
+                {selectedTool.icon ? (
+                  <img src={selectedTool.icon} alt={selectedTool.name} className="w-16 h-16 rounded-lg shadow" />
+                ) : (
+                  <div className="w-16 h-16 rounded-lg flex items-center justify-center text-white font-bold text-2xl" style={{ backgroundColor: selectedTool.color }}>{selectedTool.name.charAt(0)}</div>
+                )}
+                <div>
+                  <h2 className="text-2xl font-bold text-gray-800 mb-1">{selectedTool.name}</h2>
+                  <div className="flex flex-wrap gap-2">
+                    {selectedTool.tags.map((tag, i) => (
+                      <span key={i} className="text-xs bg-blue-50 text-blue-600 px-2 py-0.5 rounded">{tag.trim()}</span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+              <div className="prose max-w-none mb-6" style={{ minHeight: 120, fontSize: 18 }}>
+                <ReactMarkdown>{selectedTool.desc_md}</ReactMarkdown>
+              </div>
+              <div className="flex justify-end gap-4">
+                <a
+                  href={selectedTool.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-semibold shadow transition"
+                >
+                  访问工具 <ExternalLink className="inline ml-1" size={18} />
+                </a>
+                <button
+                  className="bg-gray-200 hover:bg-gray-300 text-gray-700 px-6 py-2 rounded-lg font-semibold transition"
+                  onClick={closeModal}
+                >
+                  关闭
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
       {/* 侧边栏 */}
       <div className={`${sidebarOpen ? 'w-48' : 'w-16'} mk-side-bar border-r border-gray-200 flex flex-col transition-all duration-300`}>
         {/* Logo区域 */}
@@ -420,7 +545,7 @@ export default function MikaNavigation() {
         <div className="px-3 pb-2">
         <button className="w-full flex items-center space-x-2 px-3 py-2 text-red-500 bg-red-50 rounded-lg" onClick={() => setActiveSubCategory('hotTools')}>
             <span className="text-xl">🔥</span>
-            {sidebarOpen && <span className="text-sm font-medium">热门推荐</span>}
+            {sidebarOpen && <span className="text-sm font-bold">热门推荐</span>}
         </button>
         </div>
        
@@ -572,7 +697,7 @@ export default function MikaNavigation() {
         <div className="flex-1 overflow-y-auto bg-gray-50 mt-5">
           <div className="max-w-7xl mx-auto p-6">
             {/* 标题 */}
-            {activeSubCategory ==='hotTools' ? <div className="text-md font-semibold pb-5 text-red-500"><span className="text-2xl">🔥</span> 热门推荐！！</div>:<div className="mb-6">
+            {activeSubCategory ==='hotTools' ? <div className="text-md font-semibold pb-5 text-red-500  font-bold"><span className="text-2xl">🔥</span> 热门推荐！！</div>:<div className="mb-6">
               <div className="flex items-center space-x-3 mb-4">
                 <div className={`w-10 h-10 rounded-lg bg-gradient-to-br ${categories[activeCategory]?.color || 'from-gray-400 to-gray-500'} flex items-center justify-center`}>
                   {categories[activeCategory]?.icon ? 
@@ -838,5 +963,6 @@ export default function MikaNavigation() {
         </div>
       </div>
     </div>
+     
   );
 }

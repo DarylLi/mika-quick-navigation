@@ -1,0 +1,270 @@
+[
+  [
+    {
+      "name": "小霸王",
+      "desc": "在线小霸王游戏机，上千款小霸王、红白机、街机、FC在线游戏，各种类型应有尽有，找回童年的乐趣。",
+      "desc_md": "### 小霸王在线游戏机\n\n- **简介**：小霸王在线游戏机平台汇聚了上千款经典小霸王、红白机、街机、FC等怀旧游戏，无需下载和安装，打开网页即可畅玩。\n- **主要特性**：\n  - 丰富的游戏种类（动作、冒险、益智、射击等）\n  - 支持存档与读取进度\n  - 兼容多种设备（PC、手机、平板）\n  - 无需注册，免费畅玩\n  - 支持手柄操作，体验原汁原味\n- **适用人群**：怀旧玩家、80/90后、喜欢经典游戏的用户\n- [访问平台](https://www.yikm.net/)\n",
+      "tags": ["在线小游戏", "免费"],
+      "color": "#96ceb4",
+      "link": "https://www.yikm.net/",
+      "icon": "https://kjdaohang.com/media/tool_icons/f.png",
+      "parent_category": "资源网站",
+      "sub_category": "休闲娱乐"
+    },
+    {
+      "name": "在线版 CS 1.6",
+      "desc": "在线版 CS 1.6 游戏，不用注册登录，也不用下载客户端，打开网页，找一个有空位的房间“连”就可以开始联机对战了。",
+      "desc_md": "### 在线版 CS 1.6\n\n- **简介**：经典射击游戏《反恐精英（CS 1.6）》的网页版，无需下载客户端和注册账号，直接在浏览器中体验原汁原味的CS对战。\n- **主要特性**：\n  - 免安装、免注册，打开即玩\n  - 支持全球玩家实时联机对战\n  - 多种地图和模式选择\n  - 兼容多平台（PC、Mac、Linux）\n  - 低延迟服务器，流畅体验\n- **适用人群**：FPS爱好者、怀旧玩家、喜欢团队竞技的用户\n- [立即体验](https://play-cs.com/zh/servers)\n",
+      "tags": ["在线小游戏", "免费", "枪战类"],
+      "color": "#0abde3",
+      "link": "https://play-cs.com/zh/servers",
+      "icon": "https://kjdaohang.com/media/tool_icons/R-C_h9w1wm0.jpg",
+      "parent_category": "资源网站",
+      "sub_category": "休闲娱乐"
+    },
+    {
+      "name": "Poki 免费在线游戏",
+      "desc": "免费在线小游戏网站。上千款在线游戏，完全免费，无需登录，打开就能玩。",
+      "desc_md": "### Poki 免费在线游戏\n\n- **简介**：Poki 是全球知名的免费在线小游戏平台，收录了上千款高质量的网页游戏，涵盖动作、益智、赛车、射击、休闲等多种类型。\n- **主要特性**：\n  - 海量游戏资源，持续更新\n  - 无需注册、免费下载，打开即玩\n  - 支持多语言界面，适合全球用户\n  - 适配手机、平板和PC\n  - 分类清晰，查找方便\n- **适用人群**：所有年龄段的游戏爱好者、休闲玩家\n- [访问 Poki](https://poki.com/zh)\n",
+      "tags": ["在线小游戏", "免费"],
+      "color": "#10ac84",
+      "link": "https://poki.com/zh",
+      "icon": "https://kjdaohang.com/media/tool_icons/R-C_z01Vq6G.png",
+      "parent_category": "资源网站",
+      "sub_category": "休闲娱乐"
+    },
+    {
+      "name": "CrazyGames",
+      "desc": "一个在线游戏网站，免登录，直接玩，打开后会自动匹配对手，能和全球玩家一起联机游戏。",
+      "desc_md": "### CrazyGames\n\n- **简介**：CrazyGames 是一个国际化的在线游戏平台，提供丰富多样的免费网页游戏，涵盖动作、射击、赛车、益智、模拟等类型。\n- **主要特性**：\n  - 免注册、免下载，直接畅玩\n  - 支持全球玩家实时匹配联机\n  - 游戏种类丰富，持续上新\n  - 适配多终端（PC、手机、平板）\n  - 用户界面简洁，操作便捷\n- **适用人群**：喜欢休闲娱乐、多人对战的玩家\n- [访问 CrazyGames](https://www.crazygames.com/)\n",
+      "tags": ["在线小游戏", "免费"],
+      "color": "#00d2d3",
+      "link": "https://www.crazygames.com/",
+      "icon": "https://kjdaohang.com/media/tool_icons/OIP-C_kWL1Qqh.webp",
+      "parent_category": "资源网站",
+      "sub_category": "休闲娱乐"
+    },
+    {
+      "name": "魔方求解器",
+      "desc": "魔方玩家的神器，输入魔方各面颜色，网站会自动计算出魔方的复原步骤，点击\"求解\"，按提示操作即可还原魔方。",
+      "desc_md": "### 魔方求解器\n\n- **简介**：魔方求解器是一款专为魔方爱好者设计的在线工具，通过输入魔方各面的颜色，自动计算出最优还原步骤，帮助用户轻松复原魔方。\n- **主要特性**：\n  - 支持标准3x3魔方及部分异形魔方\n  - 可视化输入界面，操作简单\n  - 自动生成详细还原步骤\n  - 提供动画演示，便于学习\n  - 支持多语言，全球用户可用\n- **适用人群**：魔方新手、进阶玩家、魔方教学者\n- [使用魔方求解器](https://rubiks-cube-solver.com/zh/)\n",
+      "tags": ["在线小游戏", "魔方"],
+      "color": "#10ac84",
+      "link": "https://rubiks-cube-solver.com/zh/",
+      "icon": "https://kjdaohang.com/media/tool_icons/R-C_1.jpg",
+      "parent_category": "资源网站",
+      "sub_category": "休闲娱乐"
+    },
+    {
+      "name": "IO游戏+",
+      "desc": "一个很耐玩的在线联机棋类游戏平台，可以跟全球玩家在线对战、排名。有五个游戏，都比较耐玩，海战游戏、井字游戏、四子棋、五子棋、国际象棋。",
+      "desc_md": "### IO游戏+\n\n- **简介**：IO游戏+ 是一个专注于在线棋类和策略小游戏的平台，支持全球玩家实时对战和排名。\n- **主要特性**：\n  - 包含海战、井字棋、四子棋、五子棋、国际象棋等经典棋类游戏\n  - 实时匹配全球玩家，支持排行榜\n  - 免注册、免费畅玩\n  - 简洁的界面和流畅的操作体验\n  - 适合休闲娱乐和益智锻炼\n- **适用人群**：棋类爱好者、休闲玩家、益智游戏爱好者\n- [访问 IO游戏+](https://papergames.io/zh/)\n",
+      "tags": ["在线小游戏", "免费", "棋牌类"],
+      "color": "#54a0ff",
+      "link": "https://papergames.io/zh/",
+      "icon": "https://kjdaohang.com/media/tool_icons/f1a66c848157fd710af6b1b548e562fa.png",
+      "parent_category": "资源网站",
+      "sub_category": "休闲娱乐"
+    },
+    {
+      "name": "中国医药信息查询平台",
+      "desc": "提供一个权威、全面的医药信息查询服务，不仅提供了基础的疾病、症状、药品等查询功能，还整合了医院、医生等医疗资源信息，并涉及中医药、保健品等多个领域。",
+      "desc_md": "### 中国医药信息查询平台\n\n- **简介**：中国医药信息查询平台是权威的医药信息服务网站，集成了疾病、症状、药品、医院、医生等多维度医疗资源信息。\n- **主要特性**：\n  - 支持疾病、症状、药品、医院、医生等多项查询\n  - 涵盖中医药、保健品、医疗器械等领域\n  - 提供权威、准确的医学数据\n  - 支持多条件筛选和智能推荐\n  - 适合患者、医务人员、药学工作者等使用\n- **适用人群**：广大患者、医护人员、药师、健康管理者\n- [访问平台](https://www.dayi.org.cn/)\n",
+      "tags": ["医药信息查询", "医疗资源信息"],
+      "color": "#ff9f43",
+      "link": "https://www.dayi.org.cn/",
+      "icon": "https://kjdaohang.com/media/tool_icons/OIP-C_PXRKa03.jpg",
+      "parent_category": "资源网站",
+      "sub_category": "便民查询"
+    },
+    {
+      "name": "术语在线",
+      "desc": "一款由全国科学技术名词审定委员会主办的专业术语知识服务平台，旨在为用户提供全面、规范、便捷的术语查询与学习服务。",
+      "desc_md": "### 术语在线\n\n- **简介**：术语在线是由全国科学技术名词审定委员会主办的权威术语查询平台，致力于为用户提供标准化、权威的专业术语服务。\n- **主要特性**：\n  - 覆盖科学、技术、医学、工程等多个领域\n  - 提供术语中英文对照、定义、来源等详细信息\n  - 支持术语批量查询与导出\n  - 持续更新，紧跟学科发展\n  - 适合学者、学生、翻译、科研人员等使用\n- **适用人群**：科研人员、翻译工作者、学生、专业人士\n- [访问术语在线](https://www.termonline.cn/)\n",
+      "tags": ["专业术语", "常用术语", "术语查询"],
+      "color": "#0abde3",
+      "link": "https://www.termonline.cn/",
+      "icon": "https://kjdaohang.com/media/tool_icons/154908-5f6314f49b8be.jpg",
+      "parent_category": "资源网站",
+      "sub_category": "便民查询"
+    },
+    {
+      "name": "医保政策导航",
+      "desc": "一个专注于医保政策的导航平台，可以快速获取与医保相关的各种信息，包括基础概念、政策指南、地区分类和常见问题解答等。",
+      "desc_md": "### 医保政策导航\n\n- **简介**：医保政策导航是一个聚合全国各地医保政策、指南和常见问题的便民查询平台，帮助用户快速了解和掌握医保相关信息。\n- **主要特性**：\n  - 汇总全国各地医保政策法规\n  - 提供医保基础知识、政策解读、常见问题解答\n  - 支持地区分类和快速检索\n  - 持续更新，紧跟政策变化\n  - 适合个人、企业、医疗机构等多类用户\n- **适用人群**：普通居民、医保参保人、企业HR、医疗从业者\n- [访问医保政策导航](https://yibao.233h.com/)\n",
+      "tags": ["医保政策", "医保查询"],
+      "color": "#54a0ff",
+      "link": "https://yibao.233h.com/",
+      "icon": "https://kjdaohang.com/media/tool_icons/logo_5GPKTOq.png",
+      "parent_category": "资源网站",
+      "sub_category": "便民查询"
+    },
+    {
+      "name": "阿里云AI学习路线",
+      "desc": "阿里云推出的AI学习课程，人工智能技术一站式学习：算法原理、框架精讲、机器学习实战、图像识别实战、自然语言处理实战...",
+      "desc_md": "### 阿里云AI学习路线\n\n- **简介**：阿里云AI学习路线是阿里云官方推出的人工智能学习平台，涵盖AI基础理论、算法原理、主流框架、实战案例等内容，适合不同阶段的学习者。\n- **主要特性**：\n  - 系统化AI学习路线图，覆盖入门到进阶\n  - 包含机器学习、深度学习、图像识别、NLP等课程\n  - 提供实战项目和案例分析\n  - 支持在线学习与社区交流\n  - 适合自学、提升和企业培训\n- **适用人群**：AI初学者、开发者、在校学生、企业技术人员\n- [访问阿里云AI学习路线](https://developer.aliyun.com/learning/roadmap/ai)\n",
+      "tags": ["学习网站"],
+      "color": "#4ecdc4",
+      "link": "https://developer.aliyun.com/learning/roadmap/ai",
+      "icon": "https://kjdaohang.com/media/tool_icons/%E9%98%BF%E9%87%8C%E4%BA%91.png",
+      "parent_category": "资源网站",
+      "sub_category": "学习资源"
+    },
+    {
+      "name": "动手学深度学习",
+      "desc": "一本广泛使用的深度学习教材，其官网提供了丰富的学习资源和文档",
+      "desc_md": "### 动手学深度学习（D2L）\n\n- **简介**：《动手学深度学习》是一本面向初学者的深度学习教材，官网提供了丰富的代码示例、交互式文档和多语言版本。\n- **主要特性**：\n  - 系统讲解深度学习基础理论与实践\n  - 提供PyTorch、MXNet等多种实现\n  - 代码可在线运行，便于动手实践\n  - 社区活跃，持续更新内容\n  - 支持中英文等多语言\n- **适用人群**：AI初学者、深度学习爱好者、在校学生、开发者\n- [访问 D2L 官网](https://zh.d2l.ai/)\n",
+      "tags": ["学习网站", "深度学习"],
+      "color": "#0abde3",
+      "link": "https://zh.d2l.ai/",
+      "icon": "https://kjdaohang.com/media/tool_icons/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0.png",
+      "parent_category": "资源网站",
+      "sub_category": "学习资源"
+    },
+    {
+      "name": "Qwerty Learner",
+      "desc": "程序员必备，打造英语输入与单词记忆的神器，结合了单词记忆和键盘输入练习，帮助用户在提升英语水平的同时，加强键盘输入的肌肉记忆。旨在为程序员、学生以及需要频繁使用键盘的工作者提供一个高效的学习工具。",
+      "desc_md": "### Qwerty Learner\n\n- **简介**：Qwerty Learner 是一款结合单词记忆与键盘输入练习的高效学习工具，专为程序员、学生和需要提升英语输入能力的用户设计。\n- **主要特性**：\n  - 英语单词记忆与键盘输入同步训练\n  - 支持多种词库（计算机英语、日语等）\n  - 统计学习进度与输入速度\n  - 简洁界面，专注学习体验\n  - 支持自定义词库和练习模式\n- **适用人群**：程序员、学生、英语学习者、打字爱好者\n- [访问 Qwerty Learner](https://qwerty.liumingye.cn/gallery)\n",
+      "tags": ["单词记忆", "日语学习", "计算机英语"],
+      "color": "#54a0ff",
+      "link": "https://qwerty.liumingye.cn/gallery",
+      "icon": "https://kjdaohang.com/media/tool_icons/8c626-qwerty.kaiyi.cool.png",
+      "parent_category": "资源网站",
+      "sub_category": "学习资源"
+    },
+    {
+      "name": "TIOBE编程语言排行",
+      "desc": "TIOBE 指数每月更新一次，用于衡量编程语言的流行程度，其排名基于全球搜索引擎（如 Google、Bing、Yahoo、Wikipedia、Amazon 等）中相关语言的搜索频率、课程数量、第三方开发者数量等指标。它不代表语言的好坏或使用人数，而是反映其在技术社区中的关注度趋势。",
+      "desc_md": "### TIOBE编程语言排行\n\n- **简介**：TIOBE 编程语言排行榜是全球知名的编程语言流行度指数，每月更新，反映各编程语言在技术社区的关注度变化。\n- **主要特性**：\n  - 基于多平台搜索数据，客观反映语言热度\n  - 提供历史趋势分析和年度排名\n  - 支持多种语言对比与筛选\n  - 适合开发者、技术管理者、学习者参考\n  - 可用于技术选型和学习规划\n- **适用人群**：开发者、编程学习者、技术决策者\n- [查看 TIOBE 排行榜](https://www.tiobe.com/tiobe-index/)\n",
+      "tags": ["编程语言", "排行榜"],
+      "color": "#96ceb4",
+      "link": "https://www.tiobe.com/tiobe-index/",
+      "icon": "https://kjdaohang.com/media/tool_icons/apple-touch-icon.webp",
+      "parent_category": "资源网站",
+      "sub_category": "学习资源"
+    },
+    {
+      "name": "Examful.ai",
+      "desc": "一个专为准备AP、IB和A-Level考试的学生设计的在线学习平台，免费真题和AI辅导。",
+      "desc_md": "### Examful.ai\n\n- **简介**：Examful.ai 是面向AP、IB、A-Level等国际课程学生的在线学习平台，提供免费真题、AI智能辅导和个性化学习建议。\n- **主要特性**：\n  - 覆盖AP、IB、A-Level等主流国际课程\n  - 免费获取历年真题与答案解析\n  - AI智能批改与个性化学习建议\n  - 支持错题本、学习进度追踪\n  - 适合自学和备考\n- **适用人群**：国际课程学生、备考AP/IB/A-Level的高中生\n- [访问 Examful.ai](https://examful.ai/)\n",
+      "tags": ["学习网站", "考试辅导"],
+      "color": "#00d2d3",
+      "link": "https://examful.ai/",
+      "icon": "https://kjdaohang.com/media/tool_icons/Examful.ai.png",
+      "parent_category": "资源网站",
+      "sub_category": "学习资源"
+    },
+    {
+      "name": "Artificial Analysis",
+      "desc": "个专注于分析和比较不同AI模型及其API提供商的平台。",
+      "desc_md": "### Artificial Analysis\n\n- **简介**：Artificial Analysis 是一个专注于AI模型和API服务商分析与对比的平台，帮助开发者和企业选择最合适的AI解决方案。\n- **主要特性**：\n  - 收录主流AI模型和API服务商信息\n  - 提供性能、价格、功能等多维度对比\n  - 支持用户评价与经验分享\n  - 持续更新最新AI产品和服务\n  - 适合技术选型和市场调研\n- **适用人群**：AI开发者、企业技术负责人、产品经理\n- [访问 Artificial Analysis](https://artificialanalysis.ai/)\n",
+      "tags": ["AI提供商"],
+      "color": "#feca57",
+      "link": "https://artificialanalysis.ai/",
+      "icon": "https://kjdaohang.com/media/tool_icons/Artificial_Analysis.png",
+      "parent_category": "资源网站",
+      "sub_category": "学习资源"
+    },
+    {
+      "name": "夸克盘搜",
+      "desc": "一款功能强大面向夸克网盘资源搜索引擎，不仅支持文件存储和分享，还提供了丰富的搜索功能，帮助用户高效地找到所需资源。",
+      "desc_md": "### 夸克盘搜\n\n- **简介**：夸克盘搜是专为夸克网盘用户打造的资源搜索引擎，支持多种文件类型的高效检索与分享。\n- **主要特性**：\n  - 支持夸克网盘资源的关键词搜索\n  - 分类细致，涵盖学习资料、影视、软件等\n  - 提供资源分享与下载链接\n  - 界面简洁，操作便捷\n  - 适合资源收集与分享爱好者\n- **适用人群**：夸克网盘用户、资源搜集者、学习资料需求者\n- [访问夸克盘搜](https://qkpanso.com/)\n",
+      "tags": ["网盘资源"],
+      "color": "#54a0ff",
+      "link": "https://qkpanso.com/",
+      "icon": "https://kjdaohang.com/media/tool_icons/R-C_2_fbKclcL.png",
+      "parent_category": "资源网站",
+      "sub_category": "网盘资源"
+    },
+    {
+      "name": "学霸盘",
+      "desc": "一个资源聚合与分享平台，主要提供各类学习资料、课程、软件及娱乐内容的下载链接或资源整合服务。",
+      "desc_md": "### 学霸盘\n\n- **简介**：学霸盘是一个聚合各类学习资料、课程、软件和娱乐资源的分享平台，致力于为用户提供一站式资源获取服务。\n- **主要特性**：\n  - 覆盖考研、考证、IT、外语等多领域学习资料\n  - 提供软件下载、课程视频、电子书等资源\n  - 支持资源分类检索与标签筛选\n  - 用户社区活跃，资源更新快\n  - 适合学生、教师、职场人士\n- **适用人群**：学习者、教师、资源收集者\n- [访问学霸盘](https://www.xuebapan.com/)\n",
+      "tags": ["学习资料", "学习课件", "资源聚合"],
+      "color": "#feca57",
+      "link": "https://www.xuebapan.com/",
+      "icon": "https://kjdaohang.com/media/tool_icons/OIP-C_1.jpg",
+      "parent_category": "资源网站",
+      "sub_category": "网盘资源"
+    },
+    {
+      "name": "学搜搜",
+      "desc": "一个专注于百度云资源搜索的网站，主要提供各类网盘资源的免费下载服务，支持搜索学习资料，如考研、考级、考证、IT教程等。",
+      "desc_md": "### 学搜搜\n\n- **简介**：学搜搜是专注于百度云盘资源搜索与分享的平台，支持各类学习资料、软件、视频等资源的高效检索与免费下载。\n- **主要特性**：\n  - 支持关键词快速搜索百度云盘资源\n  - 分类细致，涵盖考研、考级、IT教程等\n  - 提供资源直链与提取码\n  - 界面简洁，操作便捷\n  - 适合学习资料搜集与分享\n- **适用人群**：学生、教师、资源搜集者\n- [访问学搜搜](https://www.xuesousou.net/)\n",
+      "tags": ["网盘资源"],
+      "color": "#ee5253",
+      "link": "https://www.xuesousou.net/",
+      "icon": "https://kjdaohang.com/media/tool_icons/PixPin_2025-06-19_09-18-14.png",
+      "parent_category": "资源网站",
+      "sub_category": "网盘资源"
+    },
+    {
+      "name": "云盘库",
+      "desc": "云盘库是一个专注于网盘资源搜索的平台，致力于帮助用户在海量的网盘资源中快速找到所需内容。",
+      "desc_md": "### 云盘库\n\n- **简介**：云盘库是一个聚合多平台网盘资源的搜索引擎，帮助用户高效检索和获取各类学习、娱乐、软件等资源。\n- **主要特性**：\n  - 支持多种网盘资源的关键词搜索\n  - 分类全面，涵盖学习资料、影视、软件等\n  - 提供资源直链与提取码\n  - 界面简洁，操作便捷\n  - 适合资源收集与分享\n- **适用人群**：网盘用户、学习者、资源搜集者\n- [访问云盘库](https://www.yunpanku.com/)\n",
+      "tags": ["网盘资源"],
+      "color": "#00d2d3",
+      "link": "https://www.yunpanku.com/",
+      "icon": "https://kjdaohang.com/media/tool_icons/favicon.ico",
+      "parent_category": "资源网站",
+      "sub_category": "网盘资源"
+    },
+    {
+      "name": "口袋云",
+      "desc": "提供各类网盘资源分享的平台，支持百度、阿里、夸克云盘资源搜索，还可以按时间远近、文件大小来筛选想要的资源。",
+      "desc_md": "### 口袋云\n\n- **简介**：口袋云是一个多平台网盘资源聚合与搜索平台，支持百度、阿里、夸克等主流云盘的资源检索与筛选。\n- **主要特性**：\n  - 支持多平台云盘资源搜索\n  - 可按时间、文件大小等条件筛选资源\n  - 分类细致，涵盖学习、娱乐、软件等\n  - 提供资源直链与提取码\n  - 适合资源收集与分享\n- **适用人群**：网盘用户、学习者、资源搜集者\n- [访问口袋云](https://www.woxiangsou.com/)\n",
+      "tags": ["云盘资源"],
+      "color": "#45b7d1",
+      "link": "https://www.woxiangsou.com/",
+      "icon": "https://kjdaohang.com/media/tool_icons/2215192635ky.png",
+      "parent_category": "资源网站",
+      "sub_category": "网盘资源"
+    }
+  ],
+  [
+    {
+      "name": "Upwork",
+      "desc": "全球最大、最受欢迎的在线自由职业者平台之一,，涵盖编程、设计、写作、翻译、市场营销等多个领域。",
+      "desc_md": "### Upwork\n\n- **简介**：Upwork 是全球领先的自由职业者平台，连接雇主与全球各类专业人才，涵盖编程、设计、写作、翻译、市场营销等众多领域。平台支持远程项目、短期任务和长期合作，适合企业和个人灵活用工。\n- **主要特性**：\n  - 海量自由职业者与项目资源\n  - 支持多种技能与行业类别\n  - 安全的支付与合同保障\n  - 实时沟通与协作工具\n  - 项目管理与进度跟踪\n- **适用人群**：自由职业者、企业主、创业者、远程工作者\n- [访问 Upwork](https://www.upwork.com/)\n",
+      "tags": ["自由职业平台"],
+      "color": "#feca57",
+      "link": "https://www.upwork.com/",
+      "icon": "https://kjdaohang.com/media/tool_icons/upwork.png",
+      "parent_category": "资源网站",
+      "sub_category": "副业项目"
+    },
+    {
+      "name": "网盘拉新",
+      "desc": "网盘拉新是指通过各种推广手段吸引新用户注册和使用网盘服务，以获取平台提供的佣金或奖励。",
+      "desc_md": "### 网盘拉新\n\n- **简介**：网盘拉新是一种通过推广活动吸引新用户注册和使用网盘服务的副业方式，用户可通过分享专属邀请链接、参与活动等方式获得平台佣金或奖励。\n- **主要特性**：\n  - 多平台网盘拉新任务\n  - 提供专属推广链接与二维码\n  - 实时统计推广效果与收益\n  - 支持多种奖励方式（现金、会员、积分等）\n  - 适合副业兼职和推广达人\n- **适用人群**：副业从业者、推广达人、网盘用户\n- [了解更多](https://mikezhou.feishu.cn/wiki/Pp09wVnsziGW1rkNJpic9IVRn1f?from=from_copylink)\n",
+      "tags": ["网盘拉新"],
+      "color": "#5f27cd",
+      "link": "https://mikezhou.feishu.cn/wiki/Pp09wVnsziGW1rkNJpic9IVRn1f?from=from_copylink",
+      "icon": "https://kjdaohang.com/media/tool_icons/R-C_1.png",
+      "parent_category": "资源网站",
+      "sub_category": "副业项目"
+    },
+    {
+      "name": "硅基流动",
+      "desc": "专注于人工智能基础设施（AI Infra），推出的一站式大模型云服务平台SiliconCloud，集成了全球顶尖的开源模型，涵盖文本生成、图像生成、视频生成等多种多模态模型。",
+      "desc_md": "### 硅基流动 SiliconCloud\n\n- **简介**：硅基流动 SiliconCloud 是专注于AI基础设施的一站式大模型云服务平台，集成全球顶尖开源模型，支持文本、图像、视频等多模态AI应用。\n- **主要特性**：\n  - 丰富的大模型库，支持多模态生成\n  - 云端算力，按需调用\n  - 支持API接入与在线体验\n  - 持续更新最新AI模型\n  - 适合开发者、企业、科研机构\n- **适用人群**：AI开发者、企业技术团队、科研人员\n- [访问 SiliconCloud](https://cloud.siliconflow.cn/i/ZmrDHrXM)\n",
+      "tags": ["AI基础设施", "大模型云平台"],
+      "color": "#0abde3",
+      "link": "https://cloud.siliconflow.cn/i/ZmrDHrXM",
+      "icon": "https://kjdaohang.com/media/tool_icons/1740019222-DM_20250220104007_001.png",
+      "parent_category": "资源网站",
+      "sub_category": "大模型云平台"
+    },
+    {
+      "name": "魔搭社区",
+      "desc": "魔搭社区（ModelScope）是由阿里巴巴达摩院联合中国计算机学会（CCF）开源发展委员会于2022年云栖大会推出的AI大模型开源社区，提供数据集、工具及免费算力（如100小时云端算力，含32G/16G显存资源）解决国内访问Hugging Face受限问题，专注中文模型与多模态支持。",
+      "desc_md": "### 魔搭社区\n\n- **开发商**：阿里云\n- **简介**：魔搭社区是阿里云推出的AI模型社区，聚合了丰富的开源大模型和AI工具，支持在线体验、模型下载和一键部署。\n- **主要特性**：\n  - 丰富的开源大模型库\n  - 在线体验与一键部署\n  - 社区交流与资源共享\n  - 支持多种AI应用场景\n  - 持续更新与生态扩展\n- **适用人群**：开发者、AI研究者、企业用户\n- [官网链接](https://modelscope.cn/)\n",
+      "tags": ["阿里巴巴", "免费算力", "大模型社区"],
+      "color": "#5f27cd",
+      "link": "https://modelscope.cn/",
+      "icon": "https://kjdaohang.com/media/tool_icons/128.ico",
+      "parent_category": "资源网站",
+      "sub_category": "大模型云平台"
+    }
+  ]
+]
