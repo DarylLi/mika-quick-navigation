@@ -4,6 +4,8 @@ import { Home, Cpu, TestTube, Code, Palette, Server, Briefcase, FileText, Wrench
 import type { LucideIcon } from 'lucide-react';
 // 导入工具数据
 import toolsData from './tools.json';
+// @ts-ignore
+import { loadThreeComponent } from './threeLoad';
 
 // 声明 Trianglify 类型到 window
 declare global {
@@ -158,7 +160,6 @@ export default function MikaNavigation() {
   const [loading, setLoading] = useState(true);
   // 存储所有工具的完整列表
   const [allTools, setAllTools] = useState<DisplayTool[]>([]);
-
   // 初始化处理工具数据
   useEffect(() => {
     try {
@@ -211,8 +212,9 @@ export default function MikaNavigation() {
     } finally {
       setLoading(false);
     }
+    loadThreeComponent();
   }, []);
-
+  
   // 搜索处理函数
   const handleSearch = () => {
     const keyword = searchKeyword;
@@ -390,8 +392,10 @@ export default function MikaNavigation() {
       <div className="flex-1 flex flex-col overflow-hidden">
         {/* 顶部导航栏 */}
         <div className='color-change-infinite'>
-
-          <div className="top-content bg-gradient-to-r from-purple-600 via-purple-500 to-blue-500 text-white shadow-lg">
+          <div id="canvas-container"></div>
+          <button id="auto-scroll-toggle">scroll</button>
+          <div className="mask"></div>
+          <div className="top-content top-header bg-gradient-to-r from-purple-600 via-purple-500 to-blue-500 text-white shadow-lg">
             <div className="px-6 py-3 flex items-center justify-between">
               <div className="flex items-center space-x-6">
                 <div className="flex items-center space-x-2">
@@ -442,7 +446,7 @@ export default function MikaNavigation() {
           </div>
 
           {/* 搜索区域 */}
-          <div className="top-content bg-gradient-to-b from-purple-500 to-purple-600 px-6 py-12">
+          <div className="top-content search-content bg-gradient-to-b from-purple-500 to-purple-600 px-6 py-12">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-header text-white text-3xl font-bold text-center mb-8">
                 工具搜索
