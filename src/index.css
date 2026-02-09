@@ -24,138 +24,157 @@ code {
   width: 100%;
   height: 100vh;
 }
+
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.color-change-infinite{
+
+.color-change-infinite {
   height: 368px;
   position: relative;
   display: block;
 }
-.color-change-infinite #auto-scroll-toggle{
+
+.color-change-infinite #auto-scroll-toggle {
   display: none;
 }
 
 .color-change-infinite #canvas-container {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   overflow: hidden;
 }
 
 .color-change-infinite canvas {
-	display: block;
-	outline: none;
-	cursor: pointer;
+  display: block;
+  outline: none;
+  cursor: pointer;
 }
 
 .color-change-infinite .selected-info {
-	margin-top: 15px;
-	padding: 10px;
-	background: rgb(78 205 196 / 0.1);
-	border-radius: 8px;
-	border: 1px solid rgb(78 205 196 / 0.3);
+  margin-top: 15px;
+  padding: 10px;
+  background: rgb(78 205 196 / 0.1);
+  border-radius: 8px;
+  border: 1px solid rgb(78 205 196 / 0.3);
 }
 
 .color-change-infinite .selected-title {
-	font-size: 0.9rem;
-	color: #4ecdc4;
-	margin-bottom: 5px;
+  font-size: 0.9rem;
+  color: #4ecdc4;
+  margin-bottom: 5px;
 }
 
 .color-change-infinite .selected-details {
-	background-color: #000;
-	padding: 10px;
-	border-radius: 5px;
-	max-width: 250px;
-	font-size: 0.85rem;
-	opacity: 0.9;
-	border: 2px solid #fff;
+  background-color: #000;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 250px;
+  font-size: 0.85rem;
+  opacity: 0.9;
+  border: 2px solid #fff;
 }
+
 .color-change-infinite .copy {
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	color: #000;
-	background: rgb(255 255 255 / 0.7);
-	padding: 10px;
-	border-radius: 5px;
-	font-size: 12px;
-	pointer-events: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #000;
+  background: rgb(255 255 255 / 0.7);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  pointer-events: none;
 }
+
 @media (max-width: 768px) {
-	.color-change-infinite .instructions {
-		position: relative;
-		margin: 10px;
-		max-width: calc(100% - 20px);
-	}
+  .color-change-infinite .instructions {
+    position: relative;
+    margin: 10px;
+    max-width: calc(100% - 20px);
+  }
 }
-.top-header{
+
+.top-header {
   z-index: 100;
   position: absolute;
   width: 100%;
   height: 100px;
 }
-.search-content{
+
+.search-content {
   position: absolute;
   width: 100%;
   top: 100px;
   z-index: 100;
 }
-.mask{
+
+.mask {
   width: 100%;
   height: 100%;
   z-index: 1;
   position: absolute;
   background: #dedede45;
 }
-.color-change-infinite{
-	background-size: 400% 400%;
-  .top-content{
+
+.color-change-infinite {
+  background-size: 400% 400%;
+
+  .top-content {
     background: #dedede00;
   }
-  .search-button{
+
+  .search-button {
     height: 56px;
   }
-  .text-header{
+
+  .text-header {
     background-clip: text;
-    --tw-gradient-to: #c084fc var(--tw-gradient-to-position);  
+    --tw-gradient-to: #c084fc var(--tw-gradient-to-position);
     --tw-gradient-from: #818cf8 var(--tw-gradient-from-position);
     --tw-gradient-stops: var(--tw-gradient-from), #ffebf4 var(--tw-gradient-via-position), var(--tw-gradient-to);
     color: transparent;
     font-size: 32px;
     background-image: linear-gradient(to right, var(--tw-gradient-stops));
   }
-  .mk-side-bar{
+
+  .mk-side-bar {
     background-color: rgb(246 248 249)
   }
 }
+
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
-.prose.max-w-none.mb-6{
-  li{
+
+.prose.max-w-none.mb-6 {
+  li {
     line-height: 48px;
     color: #473838;
   }
-  h3{
+
+  h3 {
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 20px;
   }
-  a{
+
+  a {
     color: #3b82f6;
     text-decoration: underline;
   }
@@ -166,6 +185,7 @@ code {
  */
 /* Exo thin font from Google. */
 @import url(https://fonts.googleapis.com/css?family=Exo:100);
+
 /* Background data (Original source: https://subtlepatterns.com/grid-me/) */
 /* Animations */
 @-webkit-keyframes bg-scrolling-reverse {
@@ -173,41 +193,49 @@ code {
     background-position: 50px 50px;
   }
 }
+
 @-moz-keyframes bg-scrolling-reverse {
   100% {
     background-position: 50px 50px;
   }
 }
+
 @-o-keyframes bg-scrolling-reverse {
   100% {
     background-position: 50px 50px;
   }
 }
+
 @keyframes bg-scrolling-reverse {
   100% {
     background-position: 50px 50px;
   }
 }
+
 @-webkit-keyframes bg-scrolling {
   0% {
     background-position: 50px 50px;
   }
 }
+
 @-moz-keyframes bg-scrolling {
   0% {
     background-position: 50px 50px;
   }
 }
+
 @-o-keyframes bg-scrolling {
   0% {
     background-position: 50px 50px;
   }
 }
+
 @keyframes bg-scrolling {
   0% {
     background-position: 50px 50px;
   }
 }
+
 /* Main styles */
 .modal-dom {
   font: 400 16px/1.5 exo, ubuntu, helvetica, arial, sans-serif;
@@ -225,4 +253,8 @@ code {
   -moz-animation-timing-function: linear;
   -o-animation-timing-function: linear;
   animation-timing-function: linear;
+}
+
+.z-150 {
+  z-index: 150;
 }

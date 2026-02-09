@@ -214,7 +214,7 @@ export default function MikaNavigation() {
     }
     loadThreeComponent();
   }, []);
-  
+
   // 搜索处理函数
   const handleSearch = () => {
     const keyword = searchKeyword;
@@ -270,7 +270,7 @@ export default function MikaNavigation() {
       {/* 工具详情模态框 */}
       {showModal && selectedTool && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
+          className="fixed inset-0 z-150 flex items-center justify-center bg-black bg-opacity-50"
           style={{ backdropFilter: 'blur(2px)' }}
         >
           <div
