@@ -31,12 +31,6 @@ mika-quick-navpage/
 
 ## 安装依赖
 
-由于系统执行策略限制，npm命令可能无法直接运行。请按照以下步骤操作：
-
-1. 以管理员身份运行PowerShell
-2. 执行 `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` 来允许运行脚本
-3. 然后在项目目录中执行：
-
 ```bash
 npm install
 ```
